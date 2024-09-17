@@ -72,19 +72,19 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: '3D Solar System Planets to Explore',
-    des: 'Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.',
-    img: '/p1.svg',
+    title: 'MultiBank Group Trading Web App',
+    des: 'Multibank FX web app offers a comprehensive trading platform tailored for forex, CFD',
+    img: '/p1.jpg',
     iconLists: ['/re.svg', '/tail.svg', '/ts.svg', '/three.svg', '/fm.svg'],
-    link: 'https://github.com/adrianhajdin?tab=repositories',
+    link: 'https://multibankfx.com/en-AE',
   },
   {
     id: 2,
-    title: 'Yoom - Video Conferencing App',
-    des: 'Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.',
-    img: '/p2.svg',
+    title: 'Primex Capital Trading Web App',
+    des: 'comprehensive platform designed for forex and CFD trading, utilizing industry-standard platforms such as MetaTrader 4 (MT4), MetaTrader 5 (MT5), and cTrader. It supports trading on various instruments',
+    img: '/p2.jpg',
     iconLists: ['/next.svg', '/tail.svg', '/ts.svg', '/stream.svg', '/c.svg'],
-    link: 'https://github.com/adrianhajdin/zoom-clone',
+    link: 'https://primexcapital.com/en',
   },
   {
     id: 3,
