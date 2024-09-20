@@ -74,7 +74,7 @@ export const projects = [
     id: 1,
     title: 'MultiBank Group Trading Web App',
     des: 'Multibank FX web app offers a comprehensive trading platform tailored for forex, CFD',
-    img: '/p1.jpg',
+    img: '/p1.png',
     iconLists: ['/re.svg', '/tail.svg', '/ts.svg', '/three.svg', '/fm.svg'],
     link: 'https://multibankfx.com/en-AE',
   },
@@ -82,84 +82,54 @@ export const projects = [
     id: 2,
     title: 'Primex Capital Trading Web App',
     des: 'comprehensive platform designed for forex and CFD trading, utilizing industry-standard platforms such as MetaTrader 4 (MT4), MetaTrader 5 (MT5), and cTrader. It supports trading on various instruments',
-    img: '/p2.jpg',
+    img: '/p2.png',
     iconLists: ['/next.svg', '/tail.svg', '/ts.svg', '/stream.svg', '/c.svg'],
     link: 'https://primexcapital.com/en',
-  },
-  {
-    id: 3,
-    title: 'AI Image SaaS - Canva Application',
-    des: 'A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.',
-    img: '/p3.svg',
-    iconLists: ['/re.svg', '/tail.svg', '/ts.svg', '/three.svg', '/c.svg'],
-    link: 'https://github.com/adrianhajdin/ai_saas_app',
-  },
-  {
-    id: 4,
-    title: 'Animated Apple Iphone 3D Website',
-    des: 'Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..',
-    img: '/p4.svg',
-    iconLists: ['/next.svg', '/tail.svg', '/ts.svg', '/three.svg', '/gsap.svg'],
-    link: 'https://github.com/adrianhajdin/iphone',
   },
 ];
 
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: 'Michael Johnson',
-    title: 'Director of AlphaStream Technologies',
+      'Working with Hassan was an absolute pleasure! They delivered a stunning, user-friendly website that exceeded our expectations. Their attention to detail, professionalism, and ability to translate our vision into reality was remarkable. We couldn’t be happier with the final result and highly recommend Hassan Jarko for any web development needs!',
+    name: 'Ahmad Jarrar',
+    title: 'GTCFX Chairman Advisor',
+    imgSrc: '/jarrar.jpg',
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: 'Michael Johnson',
-    title: 'Director of AlphaStream Technologies',
+      'Hassan did an incredible job on our website! Their technical expertise, creativity, and responsiveness made the whole process smooth and enjoyable. They understood our goals perfectly and delivered a polished, modern site that works flawlessly. We are beyond satisfied with the outcome and would highly recommend Hassan Jarko for any web development project!',
+    name: 'Mubashar Saeed',
+    title: 'Chief Executive Officer at Primex Capital',
+    imgSrc: '/mubashar1.jfif',
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: 'Michael Johnson',
-    title: 'Director of AlphaStream Technologies',
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: 'Michael Johnson',
-    title: 'Director of AlphaStream Technologies',
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: 'Michael Johnson',
-    title: 'Director of AlphaStream Technologies',
+      'Hassan was outstanding in developing our mobile app! They brought our ideas to life with a seamless, intuitive design and smooth functionality. Their communication and commitment to delivering a high-quality product were exceptional. We couldn’t be happier with the result and would recommend Hassan Jarko to anyone looking for top-notch mobile app development!',
+    name: 'Ismail Jaidouri',
+    title: 'Chairman at Norrdex Travels',
+    imgSrc: '/ismail.jfif',
   },
 ];
 
 export const companies = [
   {
     id: 1,
-    name: 'cloudinary',
-    img: '/cloud.svg',
+    name: 'React',
+    img: '/react.svg',
     nameImg: '/cloudName.svg',
   },
-  {
-    id: 2,
-    name: 'appwrite',
-    img: '/app.svg',
-    nameImg: '/appName.svg',
-  },
+
   {
     id: 3,
-    name: 'HOSTINGER',
-    img: '/host.svg',
+    name: 'Node',
+    img: '/node.svg',
     nameImg: '/hostName.svg',
   },
   {
     id: 4,
-    name: 'stream',
-    img: '/s.svg',
+    name: 'Redis',
+    img: '/redis.svg',
     nameImg: '/streamName.svg',
   },
   {
@@ -168,34 +138,40 @@ export const companies = [
     img: '/dock.svg',
     nameImg: '/dockerName.svg',
   },
+  {
+    id: 2,
+    name: 'Strapi',
+    img: '/strapi.svg',
+    nameImg: '/appName.svg',
+  },
 ];
 
 export const workExperience = [
   {
     id: 1,
-    title: 'Frontend Engineer Intern',
-    desc: 'Assisted in the development of a web-based platform using React.js, enhancing interactivity.',
+    title: 'Senior Full Stack Engineer',
+    desc: 'Seamless integration and optimization of front-end and back-end services for scalable, maintainable applications..',
     className: 'md:col-span-2',
     thumbnail: '/exp1.svg',
   },
   {
     id: 2,
-    title: 'Mobile App Dev - JSM Tech',
-    desc: 'Designed and developed mobile app for both iOS & Android platforms using React Native.',
+    title: 'Full Stack Developer',
+    desc: 'Built and maintained both client-side and server-side functionality to deliver efficient, user-friendly web applications.',
     className: 'md:col-span-2', // change to md:col-span-2
     thumbnail: '/exp2.svg',
   },
   {
     id: 3,
-    title: 'Freelance App Dev Project',
-    desc: 'Led the dev of a mobile app for a client, from initial concept to deployment on app stores.',
+    title: 'Front End Developer',
+    desc: 'Created responsive, intuitive user interfaces that enhance user experience and performance across devices.',
     className: 'md:col-span-2', // change to md:col-span-2
     thumbnail: '/exp3.svg',
   },
   {
     id: 4,
-    title: 'Lead Frontend Developer',
-    desc: 'Developed and maintained user-facing features using modern frontend technologies.',
+    title: 'Java Script Team Lead',
+    desc: 'Guide the development team in building scalable, efficient JavaScript applications while ensuring code quality, best practices, and timely delivery.',
     className: 'md:col-span-2',
     thumbnail: '/exp4.svg',
   },
@@ -205,13 +181,11 @@ export const socialMedia = [
   {
     id: 1,
     img: '/git.svg',
-  },
-  {
-    id: 2,
-    img: '/twit.svg',
+    href: 'https://github.com/jarko1985',
   },
   {
     id: 3,
     img: '/link.svg',
+    href: 'https://www.linkedin.com/in/hassan-jarko-3a634949/',
   },
 ];
