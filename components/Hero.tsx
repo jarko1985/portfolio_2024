@@ -37,7 +37,7 @@ const Hero = () => {
           </p>
           <ThreeDCardDemo />
           <div className='flex justify-center items-center gap-3 pb-5'>
-            <p className='text-xl'>Let's chat on Whatsapp</p>
+            <p className='text-xl'>Let&apos;s chat on Whatsapp</p>
             <a href="https://wa.me/971509518842" target="_blank" rel="noopener noreferrer">
               <Image src={WA} width='30' height='50' alt='whatsapp logo' className='bg-green-400 rounded-full' />
             </a>
