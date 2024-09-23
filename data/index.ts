@@ -86,6 +86,14 @@ export const projects = [
     iconLists: ['/next.svg', '/tail.svg', '/ts.svg', '/stream.svg', '/c.svg'],
     link: 'https://primexcapital.com/en',
   },
+  {
+    id: 3,
+    title: 'Global Trade Capital Trading Web App',
+    des: 'comprehensive platform designed for forex and CFD trading, utilizing industry-standard platforms such as MetaTrader 4 (MT4), MetaTrader 5 (MT5), and cTrader. It supports trading on various instruments',
+    img: '/p3.png',
+    iconLists: ['/next.svg', '/tail.svg', '/ts.svg', '/stream.svg', '/c.svg'],
+    link: 'https://gtcfx.com',
+  },
 ];
 
 export const testimonials = [
@@ -101,14 +109,14 @@ export const testimonials = [
       'Hassan did an incredible job on our website! Their technical expertise, creativity, and responsiveness made the whole process smooth and enjoyable. They understood our goals perfectly and delivered a polished, modern site that works flawlessly. We are beyond satisfied with the outcome and would highly recommend Hassan Jarko for any web development project!',
     name: 'Mubashar Saeed',
     title: 'Chief Executive Officer at Primex Capital',
-    imgSrc: '/mubashar1.jfif',
+    imgSrc: '/mubashar1.jpg',
   },
   {
     quote:
       'Hassan was outstanding in developing our mobile app! They brought our ideas to life with a seamless, intuitive design and smooth functionality. Their communication and commitment to delivering a high-quality product were exceptional. We couldn’t be happier with the result and would recommend Hassan Jarko to anyone looking for top-notch mobile app development!',
     name: 'Ismail Jaidouri',
     title: 'Chairman at Norrdex Travels',
-    imgSrc: '/ismail.jfif',
+    imgSrc: '/ismail.jpg',
   },
 ];
 
