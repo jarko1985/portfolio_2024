@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+
 import localFont from "next/font/local";
 import "./globals.css";
 import { ThemeProvider } from "./provider";
@@ -14,7 +14,12 @@ const geistMono = localFont({
   weight: "100 900",
 });
 
-export const metadata: Metadata = {
+type MetaDataProps = {
+  title: string,
+  description: string
+}
+
+export const metadata: MetaDataProps = {
   title: "Hassan Jarko Portfolio",
   description: "Welcome to My Portfolio Website || Enjoy your stay",
 };
@@ -26,6 +31,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <title>{metadata.title}</title>
+        <meta name="description" content={metadata.description} />
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
