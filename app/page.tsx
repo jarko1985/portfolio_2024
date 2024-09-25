@@ -7,6 +7,12 @@ import Experience from "@/components/Experience";
 import Approach from "@/components/Approach";
 import Footer from "@/components/Footer";
 import { navItems } from "@/data";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Hassan Jarko Portfolio",
+  description: "Welcome to My Portfolio Website || Enjoy your stay",
+};
 
 export default function Home() {
   return (
