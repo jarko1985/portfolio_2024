@@ -14,12 +14,7 @@ const geistMono = localFont({
   weight: "100 900",
 });
 
-type MetaDataProps = {
-  title: string,
-  description: string
-}
-
-export const metadata: MetaDataProps = {
+export const metadata = {
   title: "Hassan Jarko Portfolio",
   description: "Welcome to My Portfolio Website || Enjoy your stay",
 };
@@ -30,11 +25,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <head>
-        <title>{metadata.title}</title>
-        <meta name="description" content={metadata.description} />
-      </head>
+    <html lang="en" className="dark" suppressHydrationWarning>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
